@@ -1,0 +1,40 @@
+:root {
+    --azul-formulario: #5B54E5;
+    --branco-padrao: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", "sans-serif";
+    color: var(--branco-padrao);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    background-color: var(--azul-formulario);
+    padding: 2.5em;
+    border-radius: 1em;
+}
+
+/* Conteudo da página */ 
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa > input {
+    padding: 1em;
+    border-radius: 0.625em;
+}
+
+
